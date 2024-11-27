@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div img {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+        @media screen and ( max-width: 360px) {
+              h1{
+                color: red;
+              }
+              .desktop, .tab, .lap{
+                display: none;
+              }
+        }
+        @media screen and ( min-width: 361px) and (max-width: 768px) {
+              h1{
+                color: blue;
+              }
+              .desktop, .mob, .lap{
+                display: none;
+              }
+        }
+        @media screen and ( min-width: 769px) and (max-width: 1240px) {
+              h1{
+                color: blueviolet;
+              }
+              .desktop, .mob, .tab{
+                display: none;
+              }
+        }
+        @media screen and ( min-width: 1241px)  {
+            h1{
+                color: aqua;
+            }
+            .lap, .mob, .tab{
+                display: none;
+            }
+        }
+        
+        
+
+            
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="desktop">
+        <h1>Suntem pe desktop</h1>
+        <img src="../PROIECT/assets/images/css.png" alt="desktop">
+    </div>
+    <div class="lap">
+        <h1>Suntem pe laptop</h1>
+        <img src="../PROIECT/assets/images/html.png" alt="laptop">
+    </div>
+    <div class="tab">
+        <h1>Suntem pe tableta</h1>
+        <img src="../PROIECT/assets/images/js.png" alt="tableta">
+    </div>
+    <div class="mob">
+        <h1>Suntem pe telefon</h1>
+        <img src="../PROIECT/assets/images/java.png" alt="telefon">
+    </div>
+    
+</body>
+</html>
