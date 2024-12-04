@@ -70,7 +70,7 @@ nav ul li a{
 /* end banner */
 
 .container{
-    margin: 20px 0px;
+    margin: 10px 0px;
     padding: 10px 0px;
 }
 #foto{
@@ -82,7 +82,7 @@ nav ul li a{
 }
 #foto img.foto{
     display: inline-block;
-    margin: 20px;
+    margin: 5px;
 }
 .sectiunea1{
     width: 27%;
@@ -93,6 +93,29 @@ nav ul li a{
     border-radius: 30px;
 }
 .tabele{
-    margin: 40px 35px;
+    margin: 35px 35px;
     float: left;
 }
+
+/* strat contact */
+#contact label{
+    width: 100px;
+    display: inline-block;
+
+}
+
+#contact div{
+    margin: 25px 20px;
+}
+
+#contact select{
+    width: 200px;
+}
+
+#contact fieldset{
+    width: 450px;
+    border-color: aqua;
+    border: 2px solid violet;
+}
+
+/* stop contact */
